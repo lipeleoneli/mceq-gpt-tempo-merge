@@ -1,0 +1,43 @@
+{
+  "fonte": {
+    "url": "https://raw.githubusercontent.com/acollant/GPT-Assistance-PR/72df511069ee0255c44460839de55b69c9a5549a/R/RQ1/at_resolution.csv",
+    "sha256": "a002720ff6c8ce8bd4a42e4ea94214deead2d0bd101c62b08bdc012f68b24610",
+    "acesso": "2026-11-25"
+  },
+  "limpeza": {
+    "linhas brutas": 2404,
+    "após remover tempo/grupo ausente": 2404,
+    "após remover tempo negativo": 2404,
+    "após remover is_gpt inválido": 2404,
+    "após remover duplicados": 2404
+  },
+  "n": {
+    "A_com_gpt": 1368,
+    "B_sem_gpt": 1036
+  },
+  "confirmatorio_mann_whitney": {
+    "U": 571287.0,
+    "p_unilateral": 1.836983938959595e-16,
+    "cliffs_delta": -0.19380799972905238,
+    "dif_medianas_h": -30.868000000000002,
+    "ic95_bootstrap_h": [
+      -42.303625,
+      -22.284737500000006
+    ]
+  },
+  "sensibilidade_welch_log": {
+    "t": -8.270310533725489,
+    "gl": 2279.3972239797417,
+    "p_unilateral": 1.1211598682180695e-16,
+    "d_cohen": -0.33950434000262186,
+    "razao_medias_geometricas": 0.4749886727933833
+  },
+  "exploratoria_por_projeto": {
+    "n_projetos_A": 358,
+    "n_projetos_B": 511,
+    "U": 92252.0,
+    "p_unilateral": 0.5851703128263417,
+    "cliffs_delta": 0.008560277252402493
+  },
+  "testes_inferenciais": 3
+}
