@@ -28,7 +28,7 @@
   "sensibilidade_welch_log": {
     "t": -8.270310533725489,
     "gl": 2279.3972239797417,
-    "p_unilateral": 1.1211598682180695e-16,
+    "p_unilateral": 1.1211598682180814e-16,
     "d_cohen": -0.33950434000262186,
     "razao_medias_geometricas": 0.4749886727933833
   },
@@ -39,5 +39,6 @@
     "p_unilateral": 0.5851703128263417,
     "cliffs_delta": 0.008560277252402493
   },
-  "testes_inferenciais": 3
+  "exploratoria_subgrupos": "ver resultados/subgrupos_E2.csv",
+  "testes_inferenciais": 9
 }
